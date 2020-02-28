@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Button extends React.Component {
+class KeyboardButton extends React.Component {
     constructor() {
         super();
 
@@ -45,4 +45,4 @@ class Button extends React.Component {
 
 }
 
-export default Button;
+export default KeyboardButton;

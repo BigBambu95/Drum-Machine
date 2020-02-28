@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from './Button';
+import KeyboardButton from '../keyboard-button';
 import { bankOne, bankTwo } from '../../banks';
 
 const Keyboard = ({ bank, playSound }) => {
@@ -10,7 +10,7 @@ const Keyboard = ({ bank, playSound }) => {
     return(
         <div className="keyboard">
             { currentBank.map(item => {
-                return <Button 
+                return <KeyboardButton 
                             key={item.keyTrigger} 
                             item={item} 
                             playSound={playSound} 
